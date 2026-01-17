@@ -54,12 +54,25 @@ pip install -r requirements.txt
 
 ### Running the Experiment
 
+**Option 1: Direct execution**
 ```bash
 # Run the pruning experiment
 python lottery_ticket_pruning.py
 
 # Generate visualizations
 python visualize_results.py
+```
+
+**Option 2: Using helper script (suppresses warnings)**
+```bash
+# Cleaner output without numpy warnings
+python run_experiment.py
+```
+
+**Option 3: Test your setup first**
+```bash
+# Verify PyTorch installation
+python test_setup.py
 ```
 
 **Expected Runtime:** 15-20 minutes on CPU
@@ -88,6 +101,8 @@ python visualize_results.py
 lottery-ticket-pruning/
 ├── lottery_ticket_pruning.py   # Main implementation
 ├── visualize_results.py        # Visualization generation
+├── run_experiment.py           # Helper script with warnings suppressed
+├── test_setup.py               # Quick setup verification
 ├── requirements.txt            # Python dependencies
 ├── README.md                   # This file
 ├── results/
