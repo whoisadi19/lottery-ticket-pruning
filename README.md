@@ -9,7 +9,7 @@
 **Course:** Computer Science  
 **Date:** January 2026
 
-## 🎯 Project Overview
+##  Project Overview
 
 This project implements and validates MIT's **Lottery Ticket Hypothesis**, demonstrating that neural networks can be pruned by **90% while maintaining (and even improving!) accuracy**. 
 
@@ -18,7 +18,7 @@ This project implements and validates MIT's **Lottery Ticket Hypothesis**, demon
 - **80% pruning** → 98.29% accuracy (best performance!)
 - **10× smaller model** with better performance
 
-## 📄 Research Article
+##  Research Article
 
 This implementation is part of a research article submitted to **NMIMS Tech Trends** technical magazine. The complete article explores:
 - The Lottery Ticket Hypothesis theory
@@ -26,7 +26,7 @@ This implementation is part of a research article submitted to **NMIMS Tech Tren
 - Experimental results and analysis
 - Real-world implications for AI efficiency
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.11 or higher
@@ -77,7 +77,7 @@ python test_setup.py
 
 **Expected Runtime:** 15-20 minutes on CPU
 
-## 📊 Results
+##  Results
 
 ### Experimental Setup
 - **Dataset:** MNIST (70,000 handwritten digits)
@@ -95,7 +95,7 @@ python test_setup.py
 
 **Surprising Discovery:** Pruning actually *improves* accuracy by removing redundant parameters that add noise!
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 lottery-ticket-pruning/
@@ -115,7 +115,7 @@ lottery-ticket-pruning/
     └── results_table.png
 ```
 
-## 🔬 Implementation Details
+##  Implementation Details
 
 ### The Lottery Ticket Algorithm
 
@@ -133,7 +133,7 @@ lottery-ticket-pruning/
 - ✅ Comprehensive logging
 - ✅ Result visualization
 
-## 📈 Visualizations
+##  Visualizations
 
 The project generates 5 professional visualizations:
 
@@ -143,7 +143,7 @@ The project generates 5 professional visualizations:
 4. **Combined Metrics** - Dual-axis view of accuracy and model size
 5. **Results Table** - Professional summary of all results
 
-## 🎓 Educational Value
+##  Educational Value
 
 This project demonstrates:
 - Deep learning fundamentals
@@ -153,37 +153,28 @@ This project demonstrates:
 - Data visualization
 - Scientific writing
 
-## 📚 References
+##  References
 
 1. Frankle, J., & Carbin, M. (2019). "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks." *ICLR 2019*.
 
 2. Han, S., Pool, J., Tran, J., & Dally, W. (2015). "Learning both Weights and Connections for Efficient Neural Network." *NeurIPS 2015*.
 
-## 🤝 Contributing
 
-This is a research project for academic submission. Feel free to:
-- Open issues for questions or discussions
-- Fork the repository for your own experiments
-- Cite this work in your research
 
-## 📧 Contact
+##  Contact
 
 **Aditya Chowdhury**
 - Email: faithfullyours.adi@gmail.com
 - GitHub: [@whoisadi19](https://github.com/whoisadi19)
 - Institution: NMIMS MPSTME Shirpur
 
-## 📝 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - MIT researchers Jonathan Frankle and Michael Carbin for the original Lottery Ticket Hypothesis
-- NMIMS MPSTME Shirpur Department of Computer Science
-- NMIMS Tech Trends magazine
 
-## ⭐ Star This Repository
+
+##  Star This Repository
 
 If you find this project helpful or interesting, please consider giving it a star! It helps others discover this work.
 
